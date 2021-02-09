@@ -20,3 +20,6 @@ def using_delete(array, string)
   array.delete(string)
 end
 
+def using_delete_at(array, Integer)
+  array.delete_at(deleted_robot)
+end
